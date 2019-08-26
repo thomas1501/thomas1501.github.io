@@ -193,27 +193,48 @@ html {
 
 
 
-body {
+/*body {
+    
+/*    position: fixed;
+/*    top: 45%;
+/*    left: 50%;
+/*    /* bring your own prefixes */
+/*    transform: translate(-50%, -45%);
+/*    
+/*    min-height: 5%;
+/*    max-height: 90%;
+/*
+/*    
+/*
+/*    border-radius:2vh;
+/*    background: #ffff;
+/*    padding-left: 4%;
+/*   padding-right: 4%;
+/*    padding-top: 1%;
+/*    padding-bottom: 2vh;
+/*    
+/*}*/
+
+.box {
     
     position: fixed;
     top: 45%;
     left: 50%;
     /* bring your own prefixes */
-    transform: translate(-50%, -45%);
+   transform: translate(-50%, -45%);
     
     min-height: 5%;
     max-height: 90%;
-
+    min-width: 50%;
     
 
     border-radius:2vh;
     background: #ffff;
     padding-left: 4%;
-    padding-right: 4%;
+   padding-right: 4%;
     padding-top: 1%;
     padding-bottom: 2vh;
-    
-
+ 
 }
 
 
