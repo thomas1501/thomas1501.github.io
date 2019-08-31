@@ -233,33 +233,6 @@ html {
  
 }
 
-.boxtos {
-    
-    position: fixed;
-    top: 45%;
-    left: 50%;
-    
-    transform: translate(-50%, -45%);
-    
-    min-height: 5%;
-    max-height: 90%;
-    min-width: 50%;
-    
-
-    border-radius:2vh;
-    background: #ffff;
-    padding-left: 4%;
-    padding-right: 4%;
-    padding-top: 1%;
-    padding-bottom: 2vh;
-    
-    background-color: #45000f;
- 
-}
-
-
-
-
 
 underlined {
     font-size: 2vh;
