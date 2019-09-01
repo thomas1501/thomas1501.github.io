@@ -193,6 +193,49 @@ nav a:hover {
     transition: all .3s ease;
 }
 
+.redlinks {
+    border-radius: 1vh;
+    padding: 1.3vh;
+    padding-left: 2.3vh;
+    padding-right: 2.3vh;
+    display: inline-block;
+    font-size: 2vh;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #f50014;
+    color: #610008;
+    box-shadow: 0vh 0vh 0vh;
+    position: relative;
+    top: 0.5vh;
+    transition: all .3s ease;
+    /*transition*/
+    animation: posIn4 .8s ease;
+}
+
+@keyframes posIn4 {
+    from {
+        position: relative;
+        color: #000000;
+        top: 2vh;
+        transition: all .8s ease;
+}
+    to {
+        position: relative;
+        top: 0.5vh;
+        transition: all .8s ease;
+    }
+}
+
+
+.redlinks:hover {
+    background-color: #f50014;
+    color: #610008;
+    top: 0;
+    box-shadow: 0.4vh 0.4vh 0.2vh;
+    transition: all .3s ease;
+}
+
+
 
 
 
@@ -264,9 +307,6 @@ html {
     background-color: #292929;
 
 }
-
-
-
 
 
 underlined {
