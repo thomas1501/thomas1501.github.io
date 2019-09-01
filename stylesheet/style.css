@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
-* { /*permanentley set font for all so i dont mess anything up like i fricken always do*/
+* { 
     font-family: 'Poppins', sans-serif;
 }
 
 :root { 
-    --animation-: #B200FF; /*color for thing i forget what it aws*/
-    /* i remember now i think it was for the links ok */
+    --animation-: #B200FF; /*dont even think i am still using this but cba to check*/
 }
 
 
