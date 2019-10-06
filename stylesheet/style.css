@@ -406,6 +406,26 @@ footer {
 }
 
 
+@media only screen and (orientation: portrait) {
+    .box {
+        min-width: 80%;
+    }
+    
+    p {
+        font-size: 2.3vh;
+    }
+    underlined {
+        font-size: 2.3vh;
+    }
+    itatext {
+        font-size: 2.3vh;
+    }
+    nav a {
+        font-size: 2.3vh;
+    }
+}
+
+
 @-moz-keyframes spin {
     from { -moz-transform: rotate(0deg); }
     to { -moz-transform: rotate(360deg); }
