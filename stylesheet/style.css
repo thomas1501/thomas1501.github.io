@@ -194,11 +194,11 @@ nav a:hover {
 
 
 .importantlinks {
+
     border-radius: 1vh;
-    padding: 1.3vh;
-    padding-left: 3vh;
-    padding-right: 3vh;
-    float: inherit;
+    padding: 0.5vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
     display: inline-block;
     font-size: 2vh;
     text-decoration: none;
@@ -209,7 +209,7 @@ nav a:hover {
     top: 0.5vh;
     transition: all .3s ease;
     /*transition*/
-    animation: posIn3 2s ease;
+    animation: posIn2 .3s ease;
 }
 
 .importantlinks:hover {
